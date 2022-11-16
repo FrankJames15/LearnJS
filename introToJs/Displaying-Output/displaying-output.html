@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Displaying Output</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <main class="container p-4">
+      <h1 class="mb-2">Displaying Output</h1>
+      <p>
+        Displaying output is very important especially when learning the
+        language.
+        <br />
+        If we want to see if our code is correct, we can output data to check
+        <br />
+        There are 4 ways to display output:
+      </p>
+      <br />
+      <!-- Using Developer Console -->
+      <h3 class="mb-2">1. Using Developer Console</h3>
+      <p>
+        We can access developer console simply by clicking
+        <kbd>Ctrl + Shift + J </kbd><br />
+        By using the <code>console.log()</code> function we can write into the
+        browser’s developer console.
+      </p>
+      <pre class="shadow p-4">console.log(5 + 2); // Output: 7</pre>
+      <p>
+        However, the output of <code>console.log()</code> cannot be seen on
+        mobile devices because the developer console is only available on
+        desktop browsers like Chrome or Firefox
+      </p>
+      <br />
+
+      <!-- 2. Using dialog box -->
+      <h3 class="mb-2">2. Using Dialog Box</h3>
+      <p>
+        By using the <code>alert()</code> function, we can output data on a
+        dialog box
+      </p>
+      <pre class="shadow p-4">alert(1 + 1); // Output: 3</pre>
+      <p>
+        This should only be used for testing purposes as it will delete all
+        existing HTML in the current page.
+      </p>
+      <br />
+
+      <!-- Writing to the Browser Window -->
+      <h3 class="mb-2">3. Writing to the Browser Window</h3>
+      <p>
+        By using the <code>document.write()</code>, we write to the content of
+        the document
+      </p>
+      <pre class="shadow p-4">
+document.write(5 + 5) // Output: 10</pre>
+
+      <div class="alert alert-danger">
+        <code>document.write()</code> should only be used for testing purposes as it will delete all
+        existing HTML in the current page.
+      </div>
+      <br />
+    </main>
+  </body>
+</html>

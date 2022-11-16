@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Syntax</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+  </head>
+  <body>
+    <main class="container p-4">
+      <h1>Syntax</h1>
+      <p>
+        In this lesson we’ll learn about JavaScript syntax including comments,
+        statements and case-sensitivity
+      </p>
+
+      <!-- Comments -->
+      <h3>Comments</h3>
+      <p>
+        Comments are used to make programming easier to read and understand. It
+        can be used to add notes, suggestions and hints to JavaScript code
+      </p>
+      <p>Comments are not executed by the browser</p>
+      <p>There are 2 types of comments, the single line and the multi-line</p>
+      <p>Single line comments start with <code>//</code></p>
+      <pre class="shadow p-4">// This is a single line comment</pre>
+      <br />
+      <p>
+        Multi-line comments goes between <code>/*</code> and <code>*/</code>
+      </p>
+      <pre class="shadow p-4">
+/*
+* This is a 
+* Muti-line comment
+*/</pre
+      >
+      <br />
+      <!-- Statements -->
+      <h3 class="mb-2">Statements</h3>
+      <p>
+        A JavaScript statement is a command to a browser. The purpose of the
+        command is to tell the browser what to do.
+      </p>
+      <pre class="shadow p-4">
+document.write("Hello Student");
+// this JavaScript statement tells the browser 
+// to write "Hello Student" to the web page
+      </pre>
+      <p>
+        The semicolon is optional. the browser is supposed to interpret the end
+        of the line as the end of the statement. <br />
+        Therefore, semicolon can be omitted if each of your statements are
+        placed on a separate line. <br /><br />
+        For example, the following code could be written without semicolons
+      </p>
+      <pre class="shadow p-4">
+document.write("Hello World")
+document.write("Hello Student")</pre
+      >
+
+      <p>
+        But when formatted in a single line as follows, we must use semicolon:
+      </p>
+      <pre class="shadow p-4">
+document.write("Hello World"); document.write("Hello Student")</pre
+      >
+      <br />
+      <div class="alert alert-success">
+        Using semicolons makes it possible to write multiple statements on one
+        line
+      </div>
+      <p>
+        Although JavaScript does not require to end a statement with a semicolon
+        (;), it is recommended to always use the semicolon to end a statement to
+        make our code more readable and avoid many issues that we may encounter
+      </p>
+      <p>Following points must be noted regarding JavaScript statements</p>
+      <ul>
+        <li>
+          JavaScript statements are executed in the order in which they are
+          written
+        </li>
+        <li>Mutiple line spaces in statement are ignored</li>
+        <li>Statements are separated by semicolon(;) at the end</li>
+      </ul>
+      <br />
+
+      <!-- Case Sensitivity -->
+      <h3 class="mb-2">Case Sensitivity</h3>
+      <p>
+        JavaScript is case sensitive - therefore watch your capitalization
+        closely when you write JavaScript statements
+      </p>
+      <p>
+        If we mistakenly type <code>Document.Write</code> instead of <code>document.write</code> this
+        statement will throw an error as it did not convey the same meaning to
+        the browser
+      </p>
+      <br />
+
+      <!-- Expression -->
+      <h3 class="mb-2">Expression</h3>
+      <p>An expression is a piece of code that evaluates to a value></p>
+      <pre class="shadow p-4">2 + 1 //Output: 3</pre>
+      <p>The above expression returns 3 to it is valid expression.</p>
+      <br />
+    </main>
+  </body>
+</html>
