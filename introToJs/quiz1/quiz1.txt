@@ -1,0 +1,44 @@
+Quiz 1
+
+Since JavaScript is an interpreted language inside the context of a web browser, we don't even need to buy a compiler
+    True
+
+Q1: Inside which HTML element do we put the JavaScript?
+    <js>
+    <scripting>
+    <javascript>
+    <script>
+
+How do you write "Hello World" in an alert box?
+    msg("Hello World");
+    alertBox("Hello World");
+    msgBox("Hello World");
+    alert("Hello World");
+
+JavaScript is a compiled language
+    True
+    False
+
+A single line comment in JavaScript start with ______
+    //
+    ##
+    @@
+    &&
+
+Unlike other programming language JavaScript is not case sensitive
+    True
+    False
+
+By using the ____________, we write to the content of the document
+    document.write()
+
+By using the ___________ function we can write into the browser’s developer console.
+    console.log()
+
+
+By using the _________ function, we can output data on a dialog box
+    alert()
+
+__________ should only be used for testing purposes as it will delete all existing HTML in the current page.
+    document.write()'
+
