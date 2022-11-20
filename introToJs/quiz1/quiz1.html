@@ -11,153 +11,393 @@
   </head>
   <body>
     <main class="container p-3">
-      <h1>Quiz</h1>
-      <form action="">
+      <div class="header">
+        <h1>Quiz 1</h1>
+      </div>
+      <form action="GET">
         <div class="shadow p-4 m-4">
+          <h3>Question 1</h3>
           <p>
             <!-- Question1 -->
             Since JavaScript is an <strong>interpreted</strong> language inside
             the context of a web browser, we don't even need to buy a compiler
           </p>
           <ul class="options">
-            <li><input type="radio" name="question1" value="true" />True</li>
-            <li><input type="radio" name="question1" value="false" />False</li>
+            <li>
+              <input
+                type="radio"
+                name="question1"
+                id="q1-a"
+                value="true"
+              /><label for="q1-a"> True</label>
+            </li>
+            <li>
+              <input type="radio" name="question1" id="q1-b" value="false" />
+              <label for="q1-b">False</label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 2</h3>
           <p>
-            <!-- Question1 -->
+            <!-- Question2 -->
             Inside which HTML element do we put the JavaScript?
           </p>
           <ul class="options">
-            <li><input type="radio" name="question2" value="" />&ltjs></li>
             <li>
-              <input type="radio" name="question2" value="" />&ltscripting>
+              <input type="radio" name="question2" id="q2-a" value="js" />
+              <label for="q2-a">&ltjs></label>
             </li>
             <li>
-              <input type="radio" name="question2" value="" />&ltjavascript>
+              <input
+                type="radio"
+                name="question2"
+                id="q2-b"
+                value="scripting"
+              />
+              <label for="q2-b">&ltscripting></label>
             </li>
-            <li><input type="radio" name="question2" value="" />&ltscript></li>
+            <li>
+              <input
+                type="radio"
+                name="question2"
+                id="q2-c"
+                value="javascript"
+              />
+              <label for="q2-c">&ltjavascript></label>
+            </li>
+            <li>
+              <input type="radio" name="question2" id="q2-d" value="script" />
+              <label for="q2-d">&ltscript></label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 3</h3>
           <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            <!-- Question3 -->
+            How do you write "Hello World" in an alert box?
           </p>
           <ul class="options">
-            <li><input type="radio" name="question3" value="" /></li>
-            <li><input type="radio" name="question3" value="" /></li>
-            <li><input type="radio" name="question3" value="" /></li>
-            <li><input type="radio" name="question3" value="" /></li>
+            <li>
+              <input type="radio" name="question3" id="q3-a" value="" />
+              <label for="q3-a">msg("Hello World");</label>
+            </li>
+            <li>
+              <input type="radio" name="question3" id="q3-b" value="" />
+              <label for="q3-b">alertBox("Hello World");</label>
+            </li>
+            <li>
+              <input type="radio" name="question3" id="q3-c" value="" />
+              <label for="q3-c">msgBox("Hello World");</label>
+            </li>
+            <li>
+              <input type="radio" name="question3" id="q3-d" value="" />
+              <label for="q3-d">alert("Hello World");</label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 4</h3>
           <p>
             <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            JavaScript is a compiled language
           </p>
           <ul class="options">
-            <li><input type="radio" name="question4" value="" /></li>
-            <li><input type="radio" name="question4" value="" /></li>
-            <li><input type="radio" name="question4" value="" /></li>
-            <li><input type="radio" name="question4" value="" /></li>
+            <li>
+              <input type="radio" name="question4" id="true" value="true" />
+              <label for="true">True</label>
+            </li>
+            <li>
+              <input type="radio" name="question4" id="false" value="false" />
+              <label for="false">False</label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 5</h3>
           <p>
             <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            A single line comment in JavaScript start with ______
           </p>
           <ul class="options">
-            <li><input type="radio" name="question5" value="" /></li>
-            <li><input type="radio" name="question5" value="" /></li>
-            <li><input type="radio" name="question5" value="" /></li>
-            <li><input type="radio" name="question5" value="" /></li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question5"
+                  value=""
+                  id="q5-a"
+                />##</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question5"
+                  value=""
+                  id="q5-b"
+                />//</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question5"
+                  value=""
+                  id="q5-c"
+                />@@</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question5"
+                  value=""
+                  id="q5-d"
+                />&&</label
+              >
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 6</h3>
+          <!-- <h1>Question 1</h1> -->
           <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            Unlike other programming language JavaScript is not case sensitive
           </p>
           <ul class="options">
-            <li><input type="radio" name="question6" value="" /></li>
-            <li><input type="radio" name="question6" value="" /></li>
-            <li><input type="radio" name="question6" value="" /></li>
-            <li><input type="radio" name="question6" value="" /></li>
+            <li>
+              <label for="q6-a"
+                ><input
+                  type="radio"
+                  name="question6"
+                  value="true"
+                  id="q6-a"
+                />True</label
+              >
+            </li>
+            <li>
+              <label>
+                <input type="radio" name="question6" value="false" id="q6-b" />
+                False
+              </label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 7</h3>
           <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            <!-- Question7 -->
+            By using the ____________, we write to the content of the document
           </p>
           <ul class="options">
-            <li><input type="radio" name="question7" value="" /></li>
-            <li><input type="radio" name="question7" value="" /></li>
-            <li><input type="radio" name="question7" value="" /></li>
-            <li><input type="radio" name="question7" value="" /></li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question7"
+                  value=""
+                  id="q7-a"
+                />console.log()
+              </label>
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question7"
+                  value=""
+                  id="q7-b"
+                />alert()</label
+              >
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question7"
+                  value=""
+                  id="q7-c"
+                />document.write()</label
+              >
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question7"
+                  value=""
+                  id="q7-d"
+                />print()
+              </label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 8</h3>
           <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            <!-- Question8 -->
+            By using the ___________ function we can write into the browser’s
+            developer console.
           </p>
           <ul class="options">
-            <li><input type="radio" name="question8" value="" /></li>
-            <li><input type="radio" name="question8" value="" /></li>
-            <li><input type="radio" name="question8" value="" /></li>
-            <li><input type="radio" name="question8" value="" /></li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question8"
+                  id="q8-a"
+                  value=""
+                />console.log()
+              </label>
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question8"
+                  id="q8-b"
+                  value=""
+                />alert()
+              </label>
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question8"
+                  id="q8-c"
+                  value=""
+                />document.write()</label
+              >
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question8"
+                  id="q8-d"
+                  value=""
+                />print()
+              </label>
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 9</h3>
           <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            <!-- Question9 -->
+            By using the _________ function, we can output data on a dialog box
           </p>
           <ul class="options">
-            <li><input type="radio" name="question9" value="" /></li>
-            <li><input type="radio" name="question9" value="" /></li>
-            <li><input type="radio" name="question9" value="" /></li>
-            <li><input type="radio" name="question9" value="" /></li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question9"
+                  id="q9-a"
+                  value=""
+                />console.log()</label
+              >
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question9"
+                  id="q9-b"
+                  value=""
+                />alert()
+              </label>
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question9"
+                  id="q9-c"
+                  value=""
+                />document.write()</label
+              >
+            </li>
+            <li>
+              <label
+                ><input
+                  type="radio"
+                  name="question9"
+                  id="q9-d"
+                  value=""
+                />print()</label
+              >
+            </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
+          <h3>Question 10</h3>
           <p>
             <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
+            __________ should only be used for testing purposes as it will
+            delete all existing HTML in the current page.
           </p>
           <ul class="options">
-            <li><input type="radio" name="question10" value="" /></li>
-            <li><input type="radio" name="question10" value="" /></li>
-            <li><input type="radio" name="question10" value="" /></li>
-            <li><input type="radio" name="question10" value="" /></li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question10"
+                  id="q10-a"
+                  value=""
+                />console.log()
+              </label>
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question10"
+                  id="q10-b"
+                  value=""
+                />alert()
+              </label>
+            </li>
+            <li>
+              <label>
+                <input
+                  type="radio"
+                  name="question10"
+                  id="q10-c"
+                  value=""
+                />document.write()
+              </label>
+            </li>
+            <li>
+              <label for="q10-d">
+                <input
+                  type="radio"
+                  id="q10-d"
+                  name="question10"
+                  id="q10-d"
+                  value=""
+                />print()
+              </label>
+            </li>
           </ul>
         </div>
-        <div class="shadow p-4 m-4">
-          <p>
-            <!-- Question1 -->
-            Since JavaScript is an interpreted language inside the context of a
-            web browser, we don't even need to buy a compiler
-          </p>
-          <ul class="options">
-            <li><input type="radio" name="question1" value="" /></li>
-            <li><input type="radio" name="question1" value="" /></li>
-            <li><input type="radio" name="question1" value="" /></li>
-            <li><input type="radio" name="question1" value="" /></li>
-          </ul>
+        <div class="d-grid gap-2 m-4">
+          <button type="submit" class="btn btn-outline-success d-grid gap-2">
+            Submit
+          </button>
         </div>
       </form>
+      <br />
     </main>
+    <script>
+      let score = 0;
+      let options = getElementsByName9
+    </script>
   </body>
 </html>

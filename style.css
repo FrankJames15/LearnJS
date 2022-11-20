@@ -5,6 +5,10 @@
   line-height: 1.7;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
 div {
   border-radius: 10px;
 }
