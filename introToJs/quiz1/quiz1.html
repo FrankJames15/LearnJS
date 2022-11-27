@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Quiz 1</title>
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="/introToJs/quiz1/quiz1.css" />
@@ -14,7 +14,7 @@
       <div class="header">
         <h1>Quiz 1</h1>
       </div>
-      <form action="GET">
+      <form action="">
         <div class="shadow p-4 m-4">
           <h3>Question 1</h3>
           <p>
@@ -109,15 +109,15 @@
               <label for="true">True</label>
             </li>
             <li>
-              <input type="radio" name="question4" id="false" value="false" />
-              <label for="false">False</label>
+              <input type="radio" name="question4" id="q4-b" value="false" />
+              <label for="q4-b">False</label>
             </li>
           </ul>
         </div>
         <div class="shadow p-4 m-4">
           <h3>Question 5</h3>
           <p>
-            <!-- Question1 -->
+            <!-- Question5 -->
             A single line comment in JavaScript start with ______
           </p>
           <ul class="options">
@@ -165,7 +165,7 @@
         </div>
         <div class="shadow p-4 m-4">
           <h3>Question 6</h3>
-          <!-- <h1>Question 1</h1> -->
+          <!-- <h1>Question 6 -->
           <p>
             Unlike other programming language JavaScript is not case sensitive
           </p>
@@ -339,7 +339,7 @@
         <div class="shadow p-4 m-4">
           <h3>Question 10</h3>
           <p>
-            <!-- Question1 -->
+            <!-- Question10 -->
             __________ should only be used for testing purposes as it will
             delete all existing HTML in the current page.
           </p>
@@ -388,16 +388,18 @@
           </ul>
         </div>
         <div class="d-grid gap-2 m-4">
-          <button type="submit" class="btn btn-outline-success d-grid gap-2">
+          <button
+            type="submit"
+            class="btn btn-outline-success d-grid gap-2"
+            id="submit"
+            onclick="calculate()"
+          >
             Submit
           </button>
         </div>
       </form>
       <br />
     </main>
-    <script>
-      let score = 0;
-      let options = getElementsByName9
-    </script>
+    <script src="./quiz1.js"></script>
   </body>
 </html>

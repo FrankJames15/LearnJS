@@ -6,7 +6,7 @@ Since JavaScript is an interpreted language inside the context of a web browser,
 Q1: Inside which HTML element do we put the JavaScript?
     <js>
     <scripting>
-    <javascript>
+2    <javascript>
     <script>
 
 How do you write "Hello World" in an alert box?
