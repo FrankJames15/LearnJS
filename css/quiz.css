@@ -1,0 +1,13 @@
+.options {
+  list-style: none;
+}
+
+ul li {
+  line-height: 2.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

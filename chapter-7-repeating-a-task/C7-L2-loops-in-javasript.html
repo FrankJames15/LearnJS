@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="stylesheet" href="/bootstrap-5.2.2-dist/css/bootstrap.min.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <main class="container p-4">
+      <div class="container shadow p-4">
+        <h1>Loops in JavaScript</h1>
+        <p>
+          Now that we know what looping is and why it is required, let’s
+          dive in right away!!
+        </p>
+        <p>
+          As we mentioned in the previous subtopic, loops are used when
+          sequence of instructions are to be executed multiple times.
+        </p>
+        <p>In JavaScript, two most common loops are:</p>
+        <ul>
+          <li>- for loop</li>
+          <li>- do…while loop</li>
+        </ul>
+        <p>We’ll look into each, one by one..</p>
+
+        <h1> For Loop</h1>
+        <p>For loop consist of 3 main parts:</p>
+        <ol>
+          <li>Giving initial value to the variable.</li>
+          <li>Condition(eg.i<10)</li>
+          <li>
+            Counter statement: used to increase or decrease the
+            variable value so that the conditions are satisfied.
+          </li>
+        </ol>
+        <p>
+          Once, we’re done giving initial value to the variable and
+          condition followed by increasing/decreasing the variable’s
+          value, we’re ready to write that statement to be executed until the
+          condition is satisfied.
+        </p>
+        <p>Let’s understand it with the help of an example.</p>
+        <p>
+          Let’s consider the previous example and try printing “I love
+          JavaScript”, 10 times.
+        </p>
+        <p>We’ll start by creating a variable.</p>
+        <pre class="shadow p-4">var i;</pre>
+        <p>Followed by writing a for loop in the following way:</p>
+        <pre class="shadow p-4">for( i = 1; i <= 10; i++ )</pre>
+        <p>The point to not here is,</p>
+        <p>
+          Initial value, condition and counter statement are separated by
+          semicolons (”;”).
+        </p>
+        <p>
+          Now, all we’ve to do is write the statement inside curly brackets,
+          which is to be repeated 10 times.
+        </p>
+        <pre class="shadow p-4">
+for( i = 1; i <= 10; i++ ) 
+{
+  console.log("I love JavaScript");
+}</pre
+        >
+        <br />
+
+        <h1> Do while loop</h1>
+        <p>Do..while loop is pretty similar to for loop.</p>
+        <p>
+          As we can guess from the name, the do..while loop has 2 main
+          parts:
+        </p>
+        <ol>
+          <li>
+            do: this is where we write the code to be executed until it
+            satisfies the condition (inside curly brackets).
+          </li>
+          <li>
+            while: this is where we mention the condition (inside round
+            brackets).
+          </li>
+        </ol>
+        <p>Example:</p>
+        <pre class="shadow p-4">
+do{
+  block of code to be executed
+} while ( condition );</pre
+        >
+        <p>Let’s repeat the same example for do…while loop as well.</p>
+        <p>Let’s try printing “I love JavaScript”, 10 times.</p>
+        <p>The first step is to create the variable.</p>
+        <p>Followed by writing the do block</p>
+        <pre class="shadow p-4">
+var i = 1;
+do{
+  console.log("I love JavaScript");
+  i = i + 1;
+}</pre
+        >
+        <p>
+          In the above code, we’re printing “*I love JavaScrip*t” followed
+          by increasing the value of i by i_+ 1, which basically means, add
+          1 to current value of ‘i’ variable.
+        </p>
+        <p>in this way we’ll meet our condition.</p>
+        <p>
+          Now, let’s add the while part mentioning the condition in round
+          brackets.
+        </p>
+        <pre class="shadow p-4">
+var i = 1;
+do{
+  console.log("I love JavaScipt");
+  i = i + 1;
+}while( i <= 10 );</pre
+        >
+        <p>Note: Do not forget the semicolons after while().</p>
+      </div>
+    </main>
+    <script src="/bootstrap-5.2.2-dist/js/bootstrap.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+  </body>
+</html>
