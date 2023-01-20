@@ -76,3 +76,13 @@ ol a {
   overflow: hidden;
   transition: max-height 0.2s ease-out;
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+  padding: 0.3rem;
+}
